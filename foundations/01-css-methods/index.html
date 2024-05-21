@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .internal {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        background-color: darkgreen;
+        color: white;
+        font-weight: 200;
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <div class="external">Style me via the external method!</div>
+    <p class="internal">I would like to be styled with the internal method, please.</p>
+    <button style="box-shadow: 0px 0ox 10px 0px; border-color: grey; border-width: 1px; text-align: center; font-size: 23px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: orange; color: black;">Inline Method</button>
   </body>
 </html>
